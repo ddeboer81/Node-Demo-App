@@ -27,7 +27,7 @@ jobs:
     - run: npm i
     - run: npm run build
     
-sonarcloud:
+  sonarcloud:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
